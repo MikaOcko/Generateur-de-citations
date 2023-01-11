@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Style général*/
+main{
+    display: flex;
+}
+
+.div_left, .div_right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_left{
+    background-color: #00493f;
+    color: white;
+}
+
+.div_right{
+    background-color: #ff8f00;
+    color: black;
+}
+
+.div_left_center, .div_right_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Images*/
+
+.face{
+    width: 180px;
+    height: 180px;
+}
+
+/*Texte*/
+.title{
+    font-family: 'Moon Dance', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+/*Boutons*/
+.btn{
+    font-family: inherit;
+    letter-spacing: 2px;
+    color: white;
+    border: white solid 2px;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 0.5rem 4rem;
+    margin-top:4vh;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn_black{
+    color: black;
+    border: black solid 2px;
+}

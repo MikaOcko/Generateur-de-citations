@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--Propriétés : -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--CDN Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <!--Moon Dance-->
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+        <!--Poppins-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/image/positive.png" type="image/x-icon">
+
+    <!--Titre de l'onglet page-->
+    <title>Générateur de citations</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="div_left">
+            <img src="assets/image/sagesse.png" alt="personnage vert montrant un visage relaxé, rêvant d'un lotus rose" class="face">
+            <div class="div_left_center">
+                <h2 class="title">Combien de citations désirez-vous ?</h2>
+    
+                <input type="number" name="citations" id="citations_zen" min="1" max="5">
+                <span id="error_left"></span>
+
+                <div id="p_left_citations"></div>
+    
+                <button type="button" class="btn" id="btn_left">Citations</button>
+            </div>
+        </div>
+
+        <div class="div_right">
+            <img src="assets/image/nourriture.png" alt="personnage orange avec la salive à la bouche, rêvant d'un hamburger" class="face" id="face_right">
+            <div class="div_right_center">
+                <h2 class="title">Combien de citations désirez-vous ?</h2>
+
+                <input type="number" name="citations" id="citations_food" min="1" max="5">
+                <span id="error_right"></span>
+
+                <div id="p_right_citations"></div>
+    
+                <button type="button" class="btn btn_black" id="btn_right">Citations</button>
+            </div> 
+        </div>
+    </main>
+    
+    <!--JS-->
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
